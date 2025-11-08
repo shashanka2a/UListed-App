@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
     ],
   },
   pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+  // Exclude src/pages from Next.js routing detection
+  experimental: {
+    typedRoutes: false,
+  },
 };
 
 export default nextConfig;
