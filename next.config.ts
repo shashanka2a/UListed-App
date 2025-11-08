@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
 };
 
 export default nextConfig;

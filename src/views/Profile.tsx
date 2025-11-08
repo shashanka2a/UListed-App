@@ -66,7 +66,7 @@ export function Profile({ user, userListings, onLogout }: ProfileProps) {
                 transition={{ duration: 0.2 }}
               >
                 <Avatar className="w-24 h-24 mb-4 ring-4 ring-blue-50">
-                  <AvatarImage src={profileImage} alt={user.name} />
+                  <AvatarImage src={typeof profileImage === 'string' ? profileImage : profileImage.src} alt={user.name} />
                   <AvatarFallback className="bg-blue-600 text-white text-xl">
                     {user.name.split(' ').map(n => n[0]).join('')}
                   </AvatarFallback>

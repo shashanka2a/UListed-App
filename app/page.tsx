@@ -1,12 +1,12 @@
 "use client";
 
 import { AppProvider, useApp } from "./providers";
-import { Login } from "@/src/pages/Login";
-import { HomeFeed } from "@/src/pages/HomeFeed";
-import { Categories } from "@/src/pages/Categories";
-import { SellForm } from "@/src/pages/SellForm";
-import { Chat } from "@/src/pages/Chat";
-import { Profile } from "@/src/pages/Profile";
+import { Login } from "@/src/views/Login";
+import { HomeFeed } from "@/src/views/HomeFeed";
+import { Categories } from "@/src/views/Categories";
+import { SellForm } from "@/src/views/SellForm";
+import { Chat } from "@/src/views/Chat";
+import { Profile } from "@/src/views/Profile";
 import { BottomNav } from "@/src/components/BottomNav";
 import { motion, AnimatePresence } from "framer-motion";
 

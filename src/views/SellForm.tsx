@@ -172,7 +172,7 @@ export function SellForm({ onSubmit }: SellFormProps) {
                       variant="outline"
                       className="w-full h-12 rounded-xl border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-all duration-200"
                       onClick={() =>
-                        document.querySelector('input[type="file"]')?.click()
+                        (document.querySelector('input[type="file"]') as HTMLInputElement)?.click()
                       }
                     >
                       Choose Photos

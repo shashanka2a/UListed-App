@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, createContext, useContext, ReactNode } from "react";
-import { User, Listing, ChatConversation } from "./types";
+import type { User, Listing, ChatConversation } from "./types";
 
 interface AppContextType {
   isLoggedIn: boolean;
